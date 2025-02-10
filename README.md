@@ -1,0 +1,3 @@
+# COBOL Infinite Loop Bug
+
+This repository demonstrates a common yet often overlooked error in COBOL programs: an infinite loop caused by improper flag handling. The `bug.cob` file contains a COBOL program with a data processing section that enters an infinite loop due to a missing condition to change the control flag (`WS-FLAG`). The `bugSolution.cob` provides a corrected version that addresses this issue.
